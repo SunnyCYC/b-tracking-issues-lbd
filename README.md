@@ -1,4 +1,3 @@
-# b-tracking-issues-lbd
 # What Can Go Wrong When Conducting Beat Tracking Experiments
 
 This is the repo for the ISMIR late-breaking demo paper titled
