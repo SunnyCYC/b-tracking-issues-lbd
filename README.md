@@ -16,7 +16,7 @@ As mentioned in our paper, there are three types of issues found in the ASAP dat
 Missing beat annotations can be detected by IBIs longer than a threshold (e.g., 10 seconds), or the audio duration after the last beat annotation. For example, if a track with audio duration much longer than the final beat annotation, there are likely to be missing annotations. We found two tracks in ASAP with abnormal duration after the final beat annotations:
 
 
-| Track name | Dur. after the last beat (second) |
+| Track name | Duration after the last beat (second) |
 | -------- | -------- |
 | Beethoven_Piano_Sonatas_9-1_Tysman05M   | 170.08    |
 | Beethoven_Piano_Sonatas_11-1_MaximovI02M   | 1009.56     |
@@ -33,6 +33,9 @@ Missing beat annotations can be detected by IBIs longer than a threshold (e.g., 
 
 ## Reference
 [1] C. Chiu, M. Muller, M. E. P. Davies, A. W. Su, and Y. Yang, “Local periodicity-based beat tracking for expressive classical piano music,” IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 31, pp. 2824–2835, 2023
+
 [2] S. Böck, F. Korzeniowski, J. Schlüter, F. Krebs, and G.Widmer, “madmom: A new Python audio and music signal processing library,” in Proceedings of the ACM International Conference on Multimedia (ACM-MM), pp. 1174–1178.
+
 [3] F. Foscarin, A. McLeod, P. Rigaux, F. Jacquemard, and M. Sakai, “ASAP: a dataset of aligned scores and performances for piano transcription,” in Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2020, pp. 534–541.
+
 [4] C. S. Sapp, “Hybrid numeric/rank similarity metrics,” in Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2008, pp. 501–506.
