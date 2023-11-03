@@ -23,10 +23,10 @@ Missing beat annotations can be detected by IBIs longer than a threshold (e.g., 
 
 
 ### Unreasonably Short Inter-Beat Intervals
-[annotation-statistics.csv](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/annotation-statistics.csv) shows the IBI statistics of all tracks in ASAP. The unit of tempo related terms (e.g., min_max_temporange, mean_tempo, min_tempo, max_tempo) are all in BPM. One may find several tracks with max_tempo over 1000 BPM. These abnormal IBIs may happen only a few times in a track, which makes it hard to detect. [2023-11-02_abnormal-annotations-final.ipynb](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/2023-11-02_abnormal-annotations-final.ipynb) we demonstrate visualization and sonification methods to detect and inspect these abnormal IBIs. Note that due to the file size limit, the IPython playback function is turned off in the script.
+[annotation-statistics.csv](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/annotation-statistics.csv) shows the IBI statistics of all tracks in ASAP. The unit of tempo related terms (e.g., min_max_temporange, mean_tempo, min_tempo, max_tempo) are all in BPM. One may find several tracks with max_tempo over 1000 BPM. These abnormal IBIs may happen only a few times in a track, which makes it hard to detect. [2023-11-02_abnormal-annotations-final.ipynb](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/2023-11-02_abnormal-annotations-final.ipynb) we demonstrate visualization[4] and sonification methods to detect and inspect these abnormal IBIs. Note that due to the file size limit, the IPython playback function is turned off in the script.
 
 ### Shifted Beat Annotations
-[org-songlevel-annshift.csv](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/org-songlevel-annshift.csv) demonstrates the F1-score improvenments/changes corresponding to annotation shift (from +/- 2 second, with 10ms hop size) the beat annotations. As mentioned in the paper, tracks with large F1-score improvement are like to have shifted annotations. In [2023-11-03_shifted-annotations-final.ipynb](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/2023-11-03_shifted-annotations-final.ipynb), we demonstrate how to inspect these tracks with visualization and sonification methods.
+[org-songlevel-annshift.csv](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/org-songlevel-annshift.csv) demonstrates the F1-score improvenments/changes corresponding to annotation shift (from +/- 2 second, with 10ms hop size) the beat annotations. As mentioned in the paper, tracks with large F1-score improvement are like to have shifted annotations. In [2023-11-03_shifted-annotations-final.ipynb](https://github.com/SunnyCYC/b-tracking-issues-lbd/blob/main/2023-11-03_shifted-annotations-final.ipynb), we demonstrate how to inspect these tracks with visualization[4] and sonification methods.
 
 
 
@@ -38,4 +38,5 @@ Missing beat annotations can be detected by IBIs longer than a threshold (e.g., 
 
 [3] F. Foscarin, A. McLeod, P. Rigaux, F. Jacquemard, and M. Sakai, “ASAP: a dataset of aligned scores and performances for piano transcription,” in Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2020, pp. 534–541.
 
-[4] C. S. Sapp, “Hybrid numeric/rank similarity metrics,” in Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2008, pp. 501–506.
+[4] C. Chiu, M. Müller, M. E. P. Davies, A. W. Su and Y. Yang, "An Analysis Method for Metric-Level Switching in Beat Tracking," in IEEE Signal Processing Letters, vol. 29, pp. 2153-2157, 2022.
+
