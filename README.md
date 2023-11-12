@@ -3,6 +3,8 @@
 This is the repo for the ISMIR late-breaking demo paper titled
 "*What Can Go Wrong When Conducting Beat Tracking Experiments*".
 
+[ **| Paper |** ]([https://](https://ismir2023program.ismir.net/lbd_325.html))[ **| Code |** ]([https://github.com/SunnyCYC/plpdp4beat/](https://github.com/SunnyCYC/b-tracking-issues-lbd))
+
 ## Abstract
 Automated beat tracking is a central task in music information retrieval (MIR) and aims to find time positions that humans would tap along when listening to music. In a previous contribution [1], we built upon an existing beat tracking system and evaluated the results on annotated datasets of Western classical music. In our experiments, we obtained poor evaluation results which we first attributed to the complexity of the music. We later discovered that many of the poor results can be traced back to technical issues in the processing pipeline and inaccurate beat annotations. In this contribution, we report on some of these issues and make suggestions regarding visualization and sonification to better understand the data and results.
 
