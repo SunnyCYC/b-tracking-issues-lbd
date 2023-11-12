@@ -34,7 +34,8 @@ Missing beat annotations can be detected by IBIs longer than a threshold (e.g., 
 
 
 ## Reference
-[1] C. Chiu, M. Muller, M. E. P. Davies, A. W. Su, and Y. Yang, “Local periodicity-based beat tracking for expressive classical piano music,” IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 31, pp. 2824–2835, 2023
+[1] C. Chiu, M. Muller, M. E. P. Davies, A. W. Su, and Y. Yang, “Local periodicity-based beat tracking for expressive classical piano music,” IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 31, pp. 2824–2835, 2023.
+[Github Repo](https://github.com/SunnyCYC/plpdp4beat)
 
 [2] S. Böck, F. Korzeniowski, J. Schlüter, F. Krebs, and G.Widmer, “madmom: A new Python audio and music signal processing library,” in Proceedings of the ACM International Conference on Multimedia (ACM-MM), pp. 1174–1178.
 
